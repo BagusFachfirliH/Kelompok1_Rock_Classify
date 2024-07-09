@@ -1,0 +1,31 @@
+/* NavMenu.css */
+.centered-list {
+  display: center;
+  justify-content: center; /* Centers the list items */
+  flex-grow: 1;
+  margin-left: -95px;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensures the navbar stays above other content */
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between; /* Ensures proper spacing between logo and nav items */
+  align-items: center;
+  width: 103.6%;
+  height: 100%;
+  position: -webkit-sticky; /* For Safari */
+  top: 0;
+  margin-left: -20px;
+  box-shadow: 0 1px 1px rgba(5, 0, 0, 0.1);
+
+  
+}
+.nav-container .centered-list ul li a:hover {
+  background-color: #adadad; /* Adjust hover background color */
+  color: #d3d9e8; /* Adjust hover text color */
+}
+
